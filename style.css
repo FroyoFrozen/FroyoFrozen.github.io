@@ -5,16 +5,18 @@ nav > ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:mediumslateblue;
+    background-color:lightcyan;
+    
   }
   
   
   nav > ul > li > a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
   }
   
   li a:hover {
@@ -28,7 +30,8 @@ nav > ul > li {
   a {
     display: block;
     padding: 8px;
-    background-color: mediumslateblue;
+    background-color: lightcyan;
+    
   }
 
   nav> ul > li {
@@ -37,16 +40,41 @@ nav > ul > li {
 
   
 
+h1{
+  text-align: center;
+}
 
 
+
+/*PROFILE CODE*/
 .dinand {
     background-color: lightskyblue;
-    text-align: center;
     margin-right: 80px;
     margin-left: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 150px;
 }
 
 .hobby {
-text-align: center;
+list-style: none;
+}
+
+.activities { 
+}
+
+.ossaert{
+  position: relatives;
+  width: 250px;
+  float: right;
+  margin-right: 250px;
+}
+
+
+article{
+  background-color: honeydew;
+  margin-right: 200px;
+}
+
+section{
+  background-color: lavender;
+  margin-right: 400px;
 }
