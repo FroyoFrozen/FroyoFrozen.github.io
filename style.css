@@ -1,0 +1,52 @@
+
+/*navigatie balk*/
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:mediumslateblue;
+  }
+  
+  
+  nav > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: blue;
+  }
+
+nav > ul > li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: mediumslateblue;
+  }
+
+  nav> ul > li {
+    border-right: 1px solid #bbb;
+  }
+
+  
+
+
+
+.dinand {
+    background-color: lightskyblue;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-bottom: 20px;
+}
+
+.hobby {
+text-align: center;
+}
