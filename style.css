@@ -1,65 +1,66 @@
-
 /*navigatie balk*/
 nav > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:lightcyan;
-    
-  }
-  
-  
-  nav > ul > li > a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-  }
-  
-  li a:hover {
-    background-color: blue;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: royalblue;
 
-nav > ul > li {
-    float: left;
-  }
-  
-  a {
-    display: block;
-    padding: 8px;
-    background-color: lightcyan;
-    
-  }
+}
 
-  nav> ul > li {
-    border-right: 1px solid #bbb;
-  }
 
-  
+nav>ul>li>a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 
-h1{
+}
+
+li a:hover {
+  background-color: skyblue;
+}
+
+nav>ul>li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: royalblue;
+
+}
+
+nav>ul>li {
+  border-right: 1px solid #bbb;
+}
+
+
+
+h1 {
   text-align: center;
 }
 
 
+body{
+  background-color: ghostwhite;
+}
 
 /*PROFILE CODE*/
 .dinand {
-    background-color: lightskyblue;
-    margin-right: 80px;
-    margin-left: 80px;
-    padding-bottom: 150px;
+  background-color: gainsboro;
+  margin-right: 80px;
+  margin-left: 80px;
+  padding-bottom: 150px;
 }
 
-.hobby {
-list-style: none;
+.hobby{
+  list-style: none;
 }
 
-.activities { 
-}
+.activities {}
 
 .ossaert{
   position: relatives;
@@ -69,12 +70,12 @@ list-style: none;
 }
 
 
-article{
-  background-color: honeydew;
+article {
+  background-color: gainsboro;
   margin-right: 200px;
 }
 
-section{
-  background-color: lavender;
+section {
+  background-color: gainsboro;
   margin-right: 400px;
 }
