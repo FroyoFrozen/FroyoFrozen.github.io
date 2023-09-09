@@ -1,5 +1,5 @@
 /*navigatie balk*/
-nav > ul {
+nav>ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -35,8 +35,11 @@ a {
 
 nav>ul>li {
   border-right: 1px solid #bbb;
+
+
 }
 
+/*einde nav*/
 
 
 h1 {
@@ -44,7 +47,7 @@ h1 {
 }
 
 
-body{
+body {
   background-color: ghostwhite;
 }
 
@@ -56,19 +59,21 @@ body{
   padding-bottom: 150px;
 }
 
-.hobby{
-  list-style: none;
+
+.activities {
+  padding-top: 10px;
 }
 
-.activities {}
-
-.ossaert{
+.ossaert {
   position: relatives;
   width: 250px;
   float: right;
   margin-right: 250px;
 }
 
+.character {
+  padding-top: 10px;
+}
 
 article {
   background-color: gainsboro;
@@ -78,4 +83,29 @@ article {
 section {
   background-color: gainsboro;
   margin-right: 400px;
+}
+
+/*Dashboard code*/
+
+.toetsen {
+  padding-top: 15px; 
+}
+
+th, td {
+  border: 1px solid black;
+  background-color: darkturquoise;
+}
+
+.EC{
+  float: right;
+  margin-right: 50px;
+  padding: 10px;
+  background-color:lightskyblue ;
+}
+
+.schooljaar{
+  background-color: gainsboro;
+  margin: 40px;
+  padding: 15px;
+
 }
