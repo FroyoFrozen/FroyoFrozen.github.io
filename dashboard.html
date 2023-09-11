@@ -7,10 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>dashboard</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+
+    <div class="btn">
+        <span class="fa fas fa-bars"></span>
+    </div>
+
+    <div class="vormbar"></div>
+    <div class="sidebar">
+        <div class="text">Side Menu</div>
+        <ul>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+        </ul>
+    </div>
+
+    <script>
+        $('.btn').click(function () {
+            $(this).toggleClass("click");
+            $('.sidebar').toggleClass("show");
+        });
+
+    </script>
 
     <nav>
         <ul>
@@ -24,120 +52,121 @@
 
     <h1>Dashboard</h1>
     <div class="schooljaar">
-    
 
-    <div class="EC">
-        <p>EC needed for propoduse = 60 EC</p>
-        <p>EC needer for no NBSA = 45 EC</p>
-        <p>My EC = 0 EC</p> 
 
-        <label for="file">EC progress:</label>
+        <div class="EC">
+            <p>EC needed for propoduse = 60 EC</p>
+            <p>EC needer for no NBSA = 45 EC</p>
+            <p>My EC = 0 EC</p>
 
-        <progress id="file" max="60" value="30"></progress>
-        
+            <label for="file">EC progress:</label>
+
+            <progress id="file" max="60" value="30"></progress>
+
+        </div>
+
+        <div>
+            <p><b>legend</b></p>
+            <p>PCO = Program- & Career Orientation</p>
+            <p>CBA = Computer Science Basics</p>
+            <p>PBA = Programming Basics</p>
+            <p>OOP = Object-oriented programming</p>
+            <p>FDE1 = Framework development 1 </p>
+            <p>FPR1 = Framework Project 1</p>
+            <p>FPR2 = Framework Project 2</p>
+            <p>PPD-E = Personal proffessional development: Exploration</p>
+        </div>
+
+
+
+        <table class="toetsen">
+
+            <tr>
+                <th>Course</th>
+                <th>Exam</th>
+                <th>Quartile</th>
+                <th>EC</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>PCO CU75001</td>
+                <td>Portofolio based</td>
+                <td>Quartile 1</td>
+                <td>2,5 EC</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>CBA CU75002</td>
+                <td>Written exam</td>
+                <td>Quartile 1</td>
+                <td>5 EC</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>PBA CU75004</td>
+                <td>Case study exam</td>
+                <td>Quartile 1</td>
+                <td>5 EC</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>OOP CU75004</td>
+                <td>
+
+                    <p>Presentation</p>
+                    <p>Case study exam</p>
+
+                </td>
+                <td>Quartile 2</td>
+                <td>10 EC</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>FDE1 CU75008</td>
+                <td>Case study exam</td>
+                <td>Quartile 3</td>
+                <td>5 EC</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>FPR1 CU57009</td>
+                <td>
+
+                    <p>Criterium focused assesment based on portfolio and final delivery </p>
+                    <p>Criterium focused assesment based on requirements portfolio</p>
+                    <p>Workplace assessment</p>
+
+                </td>
+                <td>Quartile 3</td>
+                <td>7,5 EC</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>FPR2 CU75011</td>
+                <td>
+
+                    <p>Criterium focused assesment based on portfolio and final delivery</p>
+                    <p>Criterium focused assesment based on acceptation test portfolio</p>
+                    <p>IT development portofolio</p>
+
+                </td>
+                <td>Quartile 4</td>
+                <td>10 EC</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>PPD-E CU75068</td>
+                <td>Criterium focused assessment based on portfolio</td>
+                <td>Whole year</td>
+                <td>12,5 EC</td>
+                <td></td>
+            </tr>
+        </table>
+
     </div>
-
-    <div>
-    <p><b>legend</b></p>
-    <p>PCO = Program- & Career Orientation</p>
-    <p>CBA = Computer Science Basics</p>
-    <p>PBA = Programming Basics</p>
-    <p>OOP = Object-oriented programming</p>
-    <p>FDE1 = Framework development 1 </p>
-    <p>FPR1 = Framework Project 1</p>
-    <p>FPR2 = Framework Project 2</p>
-    <p>PPD-E = Personal proffessional development: Exploration</p>
-   </div>
-
-
-
-    <table class="toetsen" >
-
-        <tr>
-            <th>Course</th>
-            <th>Exam</th>
-            <th>Quartile</th>
-            <th>EC</th>
-            <th>Grade</th>
-        </tr>
-        <tr>
-            <td>PCO CU75001</td>
-            <td>Portofolio based</td>
-            <td>Quartile 1</td>
-            <td>2,5 EC</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>CBA CU75002</td>
-            <td>Written exam</td>
-            <td>Quartile 1</td>
-            <td>5 EC</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>PBA CU75004</td>
-            <td>Case study exam</td>
-            <td>Quartile 1</td>
-            <td>5 EC</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>OOP CU75004</td>
-            <td>
-
-                <p>Presentation</p>
-                <p>Case study exam</p>
-
-            </td>
-            <td>Quartile 2</td>
-            <td>10 EC</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>FDE1 CU75008</td>
-            <td>Case study exam</td>
-            <td>Quartile 3</td>
-            <td>5 EC</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>FPR1 CU57009</td>
-            <td>
-
-                <p>Criterium focused assesment based on portfolio and final delivery </p>
-                <p>Criterium focused assesment based on requirements portfolio</p>
-                <p>Workplace assessment</p>
-
-            </td>
-            <td>Quartile 3</td>
-            <td>7,5 EC</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>FPR2 CU75011</td>
-            <td>
-
-                <p>Criterium focused assesment based on portfolio and final delivery</p>
-                <p>Criterium focused assesment based on acceptation test portfolio</p>
-                <p>IT development portofolio</p>
-
-            </td>
-            <td>Quartile 4</td>
-            <td>10 EC</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>PPD-E CU75068</td>
-            <td>Criterium focused assessment based on portfolio</td>
-            <td>Whole year</td>
-            <td>12,5 EC</td>
-            <td></td>
-        </tr>
-    </table>
-    
-</div>
 </body>
 <footer>
     <p class="hz"><img src="images\hz.logo.png" alt="hz logo" width="200"></p>
 </footer>
+
 </html>

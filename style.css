@@ -1,8 +1,9 @@
 /*navigatie balk*/
 
-.navbar{
+.navbar {
   position: fixed;
 }
+
 nav>ul {
   list-style-type: none;
   margin: 0;
@@ -22,7 +23,7 @@ nav>ul>li>a {
 
 }
 
-li a:hover {
+nav ul li a:hover {
   background-color: skyblue;
 }
 
@@ -30,7 +31,7 @@ nav>ul>li {
   float: left;
 }
 
-li a {
+nav li a {
   display: block;
   padding: 8px;
   background-color: royalblue;
@@ -43,9 +44,103 @@ nav>ul>li {
 
 }
 
-
-
 /*einde nav*/
+
+/*sidebar code*/
+
+.vormbar .sidebar ul li a {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  color: white;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  background: #1b1b1b;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: left 0.4s ease;
+}
+
+.btn.click {
+  left: 260px;
+}
+
+.btn span {
+  color: white;
+  font-size: 28px;
+  line-height: 45px;
+}
+
+.btn.click span:before {
+  content: 'X';
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  left: -250px;
+  background: #1b1b1b;
+  transition: left 0.4s ease;
+}
+
+.sidebar.show {
+  left: 0px;
+}
+
+.sidebar .text {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  background: #1e1e1e;
+  letter-spacing: 1px;
+
+}
+
+.sidebar ul {
+  background: #1b1b1b;
+  height: 100%;
+  width: 80%;
+  list-style: none;
+}
+
+.sidebar ul li {
+  line-height: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar ul li:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+
+.sidebar ul li a:hover {
+  color: red;
+  background-color: #1e1e1e;
+  border-left-color: red;
+}
+
+/*sidebar einde*/
 
 /*footer code*/
 footer {
@@ -131,7 +226,7 @@ label {
   font-size: 1rem;
 }
 
-#file{
+#file {
   accent-color: blue;
 }
 
@@ -149,3 +244,10 @@ article p a {
 article p a:visited {
   color: blue;
 }
+
+/*Home code*/
+
+/* .minecraft{
+  float: right;
+  margin-right: 30px;
+} */

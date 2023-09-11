@@ -8,15 +8,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Home</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
+    <div class="btn">
+        <span class="fa fas fa-bars"></span>
+    </div>
 
+    <div class="vormbar"></div>
+    <div class="sidebar">
+        <div class="text">Side Menu</div>
+        <ul>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+            <li><a href="#" class="feat-btn">text</a></li>
+        </ul>
+    </div>
 
-        <nav>
+    <script>
+        $('.btn').click(function () {
+            $(this).toggleClass("click");
+            $('.sidebar').toggleClass("show");
+        });
+
+    </script>
+
+    <nav>
         <ul>
             <li><a href="index.html">home</a></li>
             <li><a href="profile.html">profile</a></li>
@@ -26,17 +52,15 @@
         </ul>
 
     </nav>
-    
+
 
     <h1>Home</h1>
 
-    <!-- <video width="640" height="360" controls>
-        <source src="videos\Minecraft.mp4" type="video/mp4" />
-    </video> -->
-
-    <video width="640" height="360" controls>
-        <source src="videos\Minecraft.mp4" type="video/mp4" alt="minecraft video" />
-    </video>
+    <div class="minecraft">
+        <video width="640" height="360" controls>
+            <source src="videos\Minecraft.mp4" type="video/mp4" alt="minecraft video" />
+        </video>
+    </div>
 </body>
 
 <footer>
