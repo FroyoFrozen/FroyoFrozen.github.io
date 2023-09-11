@@ -26,7 +26,7 @@ nav>ul>li {
   float: left;
 }
 
-a {
+li a {
   display: block;
   padding: 8px;
   background-color: royalblue;
@@ -108,4 +108,24 @@ th, td {
   margin: 40px;
   padding: 15px;
 
+}
+
+label {
+  padding-right: 10px;
+  font-size: 1rem;
+}
+
+/*Blog Code*/
+
+.dates{
+  font-size: 10px;
+  font-family:cursive;
+}
+
+article p a{
+  color: blue;
+}
+
+article p a:visited{
+  color: blue;
 }
