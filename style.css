@@ -56,20 +56,20 @@ nav>ul>li {
 }
 
 .btn {
-  position: fixed;
-  top: 60px;
-  left: 9px;
+  position: absolute;
+  top: 9px;
+  right: 9px;
   height: 45px;
   width: 45px;
   text-align: center;
   background: cornflowerblue;
   border-radius: 3px;
   cursor: pointer;
-  transition: left 0.4s ease;
+  transition: right 0.4s ease;
 }
 
 .btn.click {
-  left: 260px;
+  right: 260px;
 }
 
 .btn span {
@@ -86,14 +86,14 @@ nav>ul>li {
   position: fixed;
   width: 250px;
   height: 60%;
-  left: -250px;
+  right: -250px;
   background: cornflowerblue;
-  transition: left 0.4s ease;
+  transition: right 0.4s ease;
   
 }
 
 .sidebar.show {
-  left: 0px;
+  right: 0px;
 
 }
 
@@ -130,14 +130,14 @@ nav>ul>li {
   font-weight: 500;
   display: block;
   width: 100%;
-  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sidebar ul li a:hover {
   color: whitesmoke;
   background-color: rgb(136, 173, 240);
-  border-left-color: whitesmoke;
+  border-right-color: whitesmoke;
 }
 
 /*sidebar einde*/
@@ -248,16 +248,46 @@ article p a:visited {
 
 /*Home code*/
 
+.drummer{
+width: 450px;
+float: right;
+margin-right: 20px;
+}
+
 .motivation{
   margin-right: 600px;
    background-color: rgb(215, 204, 204); 
-  padding: 5px;
+  padding: 8px;
+  margin-left: 15px;
   line-height: 0.8;
 }
 .arguments{
   line-height: 2;
 }
-/* .minecraft{
-  float: right;
-  margin-right: 30px;
-} */
+
+.minecraft{
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.socials{
+  padding-top: 50px;
+  padding-left: 15px;
+}
+.socialicon{
+  display:inline;
+}
+
+.sociallink{
+margin-left: 25px;
+word-spacing: 20px;
+}
+
+.sociallink a:visited{
+  color: blue;
+}
+
+.sociallink a:hover{
+color: rgb(106, 106, 200);
+}
+  
