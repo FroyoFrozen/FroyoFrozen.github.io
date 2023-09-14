@@ -85,11 +85,11 @@ nav>ul>li {
 .sidebar {
   position: fixed;
   width: 250px;
-  height: 60%;
+  height: 50%;
   right: -250px;
   background: cornflowerblue;
   transition: right 0.4s ease;
-  
+
 }
 
 .sidebar.show {
@@ -150,36 +150,46 @@ footer {
   bottom: 0;
   left: 0;
   background-color: lightblue;
-  
+
 }
+
+/*algemeen*/
 
 h1 {
   text-align: center;
 }
 
-
 body {
-  background-color:whitesmoke;
+  background-color: rgba(241, 233, 233, 0.832);
 }
 
 /*PROFILE CODE*/
 .dinand {
   background-color: gainsboro;
-  margin-right: 80px;
-  margin-left: 80px;
-  padding-bottom: 150px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 30px;
+  padding-bottom:100px;
 }
 
+.dinand p {
+  font-family: Arial, Narrow Bold, sans-serif;
+}
+
+.dinand ul li {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .activities {
   padding-top: 10px;
 }
 
-.ossaert {
-  position: relatives;
-  width: 250px;
+
+
+.muziek {
+  width: 500px;
   float: right;
-  margin-right: 250px;
+  margin-right: 400px;
 }
 
 .character {
@@ -191,12 +201,19 @@ article {
   margin-right: 200px;
 }
 
-section {
-  background-color: gainsboro;
-  margin-right: 400px;
-}
 
 /*Dashboard code*/
+
+.legend {
+  line-height: 3px;
+  border-style: inset;
+  border-color: rgb(71, 159, 211);
+  border-width: 4px;
+  padding: 5px;
+  margin-right: 1300px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  ;
+}
 
 .toetsen {
   padding-top: 15px;
@@ -206,6 +223,7 @@ th,
 td {
   border: 1px solid black;
   background-color: lightskyblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .EC {
@@ -233,6 +251,15 @@ label {
 
 /*Blog Code*/
 
+article {
+  background-color: gainsboro;
+  margin-right: 200px;
+}
+
+.blogpost {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .dates {
   font-size: 10px;
   font-family: cursive;
@@ -248,46 +275,80 @@ article p a:visited {
 
 /*Home code*/
 
-.drummer{
-width: 450px;
-float: right;
-margin-right: 20px;
+.drummer {
+  width: 400px;
+  float: right;
+  margin-right: 150px;
+  padding: 45px;
+  background-color: rgb(160, 149, 149);
 }
 
-.motivation{
-  margin-right: 600px;
-   background-color: rgb(215, 204, 204); 
+.motivation {
+  margin-right: 800px;
+  background-color: gainsboro;
   padding: 8px;
   margin-left: 15px;
   line-height: 0.8;
 }
-.arguments{
+
+.motivation h2 {
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.motivation p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.arguments {
   line-height: 2;
 }
 
-.minecraft{
-  padding-top: 15px;
+.minecraft {
+  padding-top: 20px;
   padding-left: 15px;
 }
 
-.socials{
+.socials {
   padding-top: 50px;
   padding-left: 15px;
 }
-.socialicon{
-  display:inline;
+
+.socialicon {
+  display: inline;
 }
 
-.sociallink{
-margin-left: 25px;
-word-spacing: 20px;
+.sociallink {
+  margin-left: 25px;
+  word-spacing: 20px;
 }
 
-.sociallink a:visited{
+.sociallink a:visited {
   color: blue;
 }
 
-.sociallink a:hover{
-color: rgb(106, 106, 200);
+.sociallink a:hover {
+  color: rgb(106, 106, 200);
 }
-  
+
+/*faq code*/
+
+.answer a:visited {
+  color: blue;
+}
+
+.answer a:hover {
+  color: rgb(106, 106, 200);
+}
+
+.answer p {
+  line-height: 10px;
+}
+
+
+.answer {
+  background-color: gainsboro;
+  margin-right: 400px;
+  padding-bottom: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
