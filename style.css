@@ -5,18 +5,21 @@
 nav>ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1;
   overflow: hidden;
   background-color: royalblue;
-
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 45px;
 }
-
 
 nav>ul>li>a {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
 
 }
@@ -38,8 +41,6 @@ nav li a {
 
 nav>ul>li {
   border-right: 1px solid #bbb;
-
-
 }
 
 /*einde nav*/
@@ -57,7 +58,7 @@ nav>ul>li {
 
 .btn {
   position: absolute;
-  top: 9px;
+  top: 0px;
   right: 9px;
   height: 45px;
   width: 45px;
@@ -89,7 +90,7 @@ nav>ul>li {
   right: -250px;
   background: cornflowerblue;
   transition: right 0.4s ease;
-
+  top: 0px;
 }
 
 .sidebar.show {
@@ -157,6 +158,7 @@ footer {
 
 h1 {
   text-align: center;
+  padding-top: 40px;
 }
 
 body {
@@ -170,7 +172,8 @@ body {
   margin-right: 100px;
   margin-left: 100px;
   padding: 30px;
-  padding-bottom:100px;
+  padding-bottom: 100px;
+  border-radius: 25px;
 }
 
 .activities {
@@ -188,12 +191,6 @@ body {
 .character {
   padding-top: 10px;
 }
-
-article {
-  background-color: gainsboro;
-  margin-right: 200px;
-}
-
 
 /*Dashboard code*/
 
@@ -221,13 +218,14 @@ td {
   margin-right: 50px;
   padding: 10px;
   background-color: lightskyblue;
+  border-radius: 10px;
 }
 
 .schooljaar {
   background-color: gainsboro;
   margin: 40px;
   padding: 15px;
-
+  border-radius: 25px;
 }
 
 label {
@@ -241,13 +239,16 @@ label {
 
 /*Blog Code*/
 
-article {
+.blogpost article {
   background-color: gainsboro;
   margin-right: 200px;
+  border-radius: 10px;
+  padding: 3px;
+  margin-bottom: 15px;
 }
 
 .dates {
-  font-size: 10px;
+  -size: 10px;
 }
 
 article p a {
@@ -266,6 +267,7 @@ article p a:visited {
   margin-right: 80px;
   padding: 45px;
   background-color: rgb(160, 149, 149);
+  border-radius: 25px;
 }
 
 .motivation {
@@ -274,6 +276,8 @@ article p a:visited {
   padding: 8px;
   margin-left: 15px;
   line-height: 0.8;
+  border-radius: 25px;
+  margin-bottom: 20px;
 }
 
 .arguments {
@@ -281,8 +285,11 @@ article p a:visited {
 }
 
 .minecraft {
-  padding-top: 20px;
-  padding-left: 15px;
+  padding: 50px;
+  background-color: rgb(160, 149, 149);
+  width: 750px;
+  border-radius: 25px;
+  margin-left: 15px;
 }
 
 .socials {
@@ -324,5 +331,7 @@ article p a:visited {
 .answer {
   background-color: gainsboro;
   margin-right: 100px;
-  padding-bottom: 1px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
 }
