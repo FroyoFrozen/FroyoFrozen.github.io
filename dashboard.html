@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet">
+    <link href="wheel.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,22 +27,6 @@
 
     <div class="btn">
         <span class="fa fas fa-bars"></span>
-    </div>
-
-    <div class="vormbar"></div>
-    <div class="sidebar">
-        <div class="text">Side Menu</div>
-        <ul>
-            <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
-                    target="blank" class="feat-btn">HZ.CER</a></li>
-            <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
-                    target="blank" class="feat-btn">HZ.IR</a></li>
-            <li><a href="https://learn.hz.nl/my/ " target="blank" class="feat-btn">HZ.learn</a></li>
-            <li><a href="https://teams.microsoft.com/_?culture=en-us&country=us#/school/teams-grid/
-                General?ctx=teamsGrid" target="blank" class="feat-btn">HZ.Teams</a></li>
-            <li><a href="https://hz.osiris-student.nl/#/home" target="blank" class="feat-btn">MyHZ</a></li>
-            <li><a href="https://github.com/HZ-HBO-ICT" target="blank" class="feat-btn">HZ.Github</a></li>
-        </ul>
     </div>
 
     <h1>Dashboard</h1>
@@ -65,6 +50,10 @@
             <p>FPR1 = Framework Project 1</p>
             <p>FPR2 = Framework Project 2</p>
             <p>PPD-E = Personal proffessional development: Exploration</p>
+        </div>
+
+        <div class="circular-progress">
+            <div class="value-container">0</div>
         </div>
 
         <table class="toetsen">
@@ -153,7 +142,29 @@
 
     </div>
 
+    <div class="vormbar"></div>
+    <div class="sidebar">
+        <div class="text">Side Menu</div>
+        <ul>
+            <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+                    target="blank" class="feat-btn">HZ.CER</a></li>
+            <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+                    target="blank" class="feat-btn">HZ.IR</a></li>
+            <li><a href="https://learn.hz.nl/my/ " target="blank" class="feat-btn">HZ.learn</a></li>
+            <li><a href="https://teams.microsoft.com/_?culture=en-us&country=us#/school/teams-grid/
+                General?ctx=teamsGrid" target="blank" class="feat-btn">HZ.Teams</a></li>
+            <li><a href="https://hz.osiris-student.nl/#/home" target="blank" class="feat-btn">MyHZ</a></li>
+            <li><a href="https://github.com/HZ-HBO-ICT" target="blank" class="feat-btn">HZ.Github</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <img src="images\hz.logo.png" alt="hz logo" width="200">
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="app.js"></script>
+
     <script>
         $('.btn').click(function () {
             $(this).toggleClass("click");
@@ -161,10 +172,6 @@
         });
 
     </script>
-
-    <footer>
-        <img src="images\hz.logo.png" alt="hz logo" width="200">
-    </footer>
 </body>
 
 </html>
