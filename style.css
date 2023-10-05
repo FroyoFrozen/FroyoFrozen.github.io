@@ -1,6 +1,5 @@
+
 /*navigatie balk*/
-
-
 
 nav>ul {
   list-style-type: none;
@@ -145,6 +144,7 @@ nav>ul>li {
 
 /*footer code*/
 footer {
+  position:relative;
   width: 100%;
   margin-top: 30px;
   height: 80px;
@@ -273,6 +273,7 @@ article p a:visited {
   line-height: 0.8;
   border-radius: 25px;
   margin-bottom: 20px;
+  
 }
 
 .arguments {
@@ -292,20 +293,20 @@ article p a:visited {
   padding-left: 15px;
 }
 
-.socialicon {
+.social-icon {
   display: inline;
 }
 
-.sociallink {
+.social-link {
   margin-left: 25px;
   word-spacing: 20px;
 }
 
-.sociallink a:visited {
+.social-link a:visited {
   color: blue;
 }
 
-.sociallink a:hover {
+.social-link a:hover {
   color: rgb(106, 106, 200);
 }
 
