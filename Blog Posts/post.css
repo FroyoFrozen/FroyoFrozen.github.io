@@ -80,6 +80,10 @@ input {
 
 /*post 3*/
 
+.codecademy-box {
+    margin-top: 50px;
+}
+
 .CourseExperience {
     border-radius: 15px;
     background-color: rgb(168, 166, 166);

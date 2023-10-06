@@ -1,5 +1,4 @@
-
-.circular-progress{
+.circular-progress {
     position: relative;
     height: 250px;
     width: 250px;
@@ -10,7 +9,7 @@
     margin-right: 50px;
 }
 
-.circular-progress:before{
+.circular-progress:before {
     content: "";
     position: absolute;
     height: 84%;
@@ -19,8 +18,8 @@
     border-radius: 50%;
 }
 
-.value-container{
+.value-container {
     position: relative;
-    font-family:impact;
+    font-family: impact;
     font-size: 50px;
 }

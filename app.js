@@ -12,7 +12,7 @@ let progress = setInterval(() => {
         #4d5bf9 ${progressValue * 6}deg,
         #cadcff ${progressValue * 6}deg
     )`
-    if(progressValue == progressEndValue) {
+    if (progressValue == progressEndValue) {
         clearInterval(progress)
     }
 }, speed);
