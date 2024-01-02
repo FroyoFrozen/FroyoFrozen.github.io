@@ -2,7 +2,7 @@ let progressBar = document.querySelector(".circular-progress");
 let valueContainer = document.querySelector(".value-container");
 
 let progressValue = 0;
-let progressEndValue = 30;
+let progressEndValue = 12.5;
 let speed = 25;
 
 let progress = setInterval(() => {
